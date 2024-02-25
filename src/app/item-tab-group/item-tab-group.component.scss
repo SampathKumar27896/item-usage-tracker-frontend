@@ -1,26 +1,12 @@
+.item-list {
+    padding: 10px;
+}
 mat-card {
-    margin: 2em;
+    margin: 10px 0px 10px 0px;
 }
-// mat-tab-group {
-//     background-color: pink;
-//     height: 100%;
-// }
-
-.parent {
-    display: flex;
-    flex-direction: column;
-    background-color: orange;
-    height: 84vh;
+.add-item {
+ position: fixed; /* Fixes the element to the viewport */
+  bottom: 0.5rem; /* Positions the bottom edge at 0 (bottom of the screen) */
+  right: 0.5rem;
+  
 }
-.child1 {
-    height: 85%;
-    background-color: green;
-}
-.child2 {
-    padding: 0.5rem;
-    height: 15%;
-}
-// .demo {
-//     height: 100%;
-//     background-color: green;
-// }
