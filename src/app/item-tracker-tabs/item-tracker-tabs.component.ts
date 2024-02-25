@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './item-tracker-tabs.component.html',
-  styleUrl: './item-tracker-tabs.component.css'
+  styleUrl: './item-tracker-tabs.component.scss'
 })
 export class ItemTrackerTabsComponent {
 

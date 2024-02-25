@@ -1,0 +1,25 @@
+mat-card {
+    margin: 2em;
+}
+// mat-tab-group {
+//     background-color: pink;
+//     height: 100%;
+// }
+
+.parent {
+    display: flex;
+    flex-direction: column;
+    background-color: orange;
+    height: 100vh;
+}
+.child1 {
+    height: 80%;
+    background-color: green;
+}
+.child2 {
+    height: 20%;
+}
+// .demo {
+//     height: 100%;
+//     background-color: green;
+// }
