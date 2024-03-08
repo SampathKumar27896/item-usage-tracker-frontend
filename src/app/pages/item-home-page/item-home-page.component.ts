@@ -1,13 +1,14 @@
 import { Component } from '@angular/core';
-import { ItemTabGroupComponent } from '../item-tab-group/item-tab-group.component';
+import { NgFor } from '@angular/common';
+import { ItemBottomNavbarComponent } from '../../components/item-bottom-navbar/item-bottom-navbar.component';
 
 @Component({
   selector: 'app-item-home-page',
   standalone: true,
-  imports: [ ItemTabGroupComponent ],
+  imports: [ ItemBottomNavbarComponent, NgFor],
   templateUrl: './item-home-page.component.html',
   styleUrl: './item-home-page.component.scss'
 })
 export class ItemHomePageComponent {
-
+ 
 }
