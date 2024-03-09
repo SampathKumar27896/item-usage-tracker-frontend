@@ -1,17 +1,25 @@
 <mat-toolbar>
     <section class="toolbar-flex">
         <section>
-            <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
-                <mat-icon>check</mat-icon>
-            </button>
+            <a routerLink="">
+                <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+                    <mat-icon>check</mat-icon>
+                </button>
+            </a>
         </section>
         <section>
-            <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
-                <mat-icon>local_laundry_service</mat-icon>
-            </button>
+            <a routerLink="/wash">
+                <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+                    <mat-icon>local_laundry_service</mat-icon>
+                </button>
+            </a>
         </section>
-        <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+        <a routerLink="/iron">
+            <button mat-icon-button class="example-icon" 
+            aria-label="Example icon-button with menu icon"
+            >
             <mat-icon>storage</mat-icon>
-        </button>
+            </button>
+        </a>
     </section>
 </mat-toolbar>
