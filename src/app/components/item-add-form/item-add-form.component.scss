@@ -1,15 +1,14 @@
-.example-form {
+form {
     margin: 1rem 1rem 1rem 1rem;
     display: flex;
     flex-direction: column;
-}
-.example-full-width {
-    width: 100%;
+    height: 100%;
+    padding-bottom: 8rem;
 }
 
 .item-add-submit {
- position: absolute;
- bottom: 3.5rem;
- height: 3rem;
- width: 100%;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
+
