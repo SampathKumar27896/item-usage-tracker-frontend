@@ -10,16 +10,19 @@
     </mat-form-field>
 <button mat-raised-button color="primary" class="item-add-submit">Add</button>
 </form> -->
-<form [formGroup]="addItemFormGroup" (ngSubmit)="onSubmit()">
-  <mat-form-field class="form-field">
-    <mat-label for="name">Name</mat-label>
-    <input matInput formControlName="name">
-  </mat-form-field>
-  <mat-form-field class="form-field">
-    <mat-label for="description">Description</mat-label>
-    <input matInput formControlName="description">
-  </mat-form-field>
-  
-      <button mat-raised-button color="primary" type="submit" class="form-field item-add-submit">Add</button>
+<section class="item-add">
+  <h1>Add Item</h1>
+  <form [formGroup]="addItemFormGroup" (ngSubmit)="onSubmit()">
+    <mat-form-field class="form-field">
+      <mat-label for="name">Name</mat-label>
+      <input matInput formControlName="name">
+    </mat-form-field>
+    <mat-form-field class="form-field">
+      <mat-label for="description">Description</mat-label>
+      <input matInput formControlName="description">
+    </mat-form-field>
+        <button mat-raised-button color="primary" type="submit" class="form-field item-add-submit">Add</button>
   </form>
+</section>
+
   

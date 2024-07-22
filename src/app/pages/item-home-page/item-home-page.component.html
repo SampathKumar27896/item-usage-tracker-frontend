@@ -1,37 +1,14 @@
 <section class="card-list">
-    <mat-card>
-        <mat-card-title>Hello world</mat-card-title>
-    </mat-card>
-    <mat-card>
-        <mat-card-title>Hello world</mat-card-title>
-    </mat-card>
-    <mat-card>
-        <mat-card-title>Hello world</mat-card-title>
-    </mat-card>
-    <mat-card>
-        <mat-card-title>Hello world</mat-card-title>
-    </mat-card>
-    <mat-card>
-        <mat-card-title>Hello world</mat-card-title>
-    </mat-card>
-    <mat-card>
-        <mat-card-title>Hello world</mat-card-title>
-    </mat-card>
-    <mat-card>
-        <mat-card-title>Hello world</mat-card-title>
-    </mat-card>
-    <mat-card>
-        <mat-card-title>Hello world</mat-card-title>
-    </mat-card>
-    <mat-card>
-        <mat-card-title>Hello world</mat-card-title>
-    </mat-card>
-    <mat-card>
-        <mat-card-title>Hello world</mat-card-title>
-    </mat-card>
-    <mat-card>
-        <mat-card-title>Hello world</mat-card-title>
-    </mat-card>
+    @for (item of cardsList; track item.name) {
+        <mat-card class="list-card">
+            <mat-card-header>
+                <mat-card-title>{{ item.name }}</mat-card-title>
+            </mat-card-header>
+            <mat-card-content>
+                <p>{{ item.description }}</p>
+            </mat-card-content>
+        </mat-card>
+    }
     <a routerLink="/item-add">
         <app-add-item-button class="add-item-button"></app-add-item-button>
     </a>

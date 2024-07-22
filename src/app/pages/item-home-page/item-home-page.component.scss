@@ -14,6 +14,13 @@ mat-card {
     flex-wrap: wrap;
     justify-content: center;
 }
-.card-list > :last-child {
-    align-self: flex-start;
+.mat-mdc-card-header {
+    padding: 0.5rem 0.5rem 0;
+    background-color: #bfc5ed;
+}
+.mat-mdc-card-content {
+    padding: 0 0.5rem;
+}
+mat-card {
+    padding: 0.1rem;
 }
